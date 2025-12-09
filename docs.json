@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "出海挣美金课程",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -14,47 +14,57 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
-            "pages": ["index", "quickstart", "development"]
-          },
-          {
-            "group": "Customization",
-            "pages": ["essentials/settings", "essentials/navigation"]
-          },
-          {
-            "group": "Writing content",
+            "group": "出海赚钱基础认知",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "为什么现在是中国人做“英文网站挣钱”的最好时代",
+              "三类最容易做又好赚钱的网站",
+              "普通人从 0 到月入 500–2000 美金的路径",
+              "你会遇到的坑 & 如何避免",
+              "本课程能带你实现什么成果"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "确定方向",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "什么样的词能挣钱？什么样的词不能碰？",
+              "Google Search + Keyword Planner 找词示范",
+              "如何判断一个小众赛道是否能挣钱（3 指标法）",
+              "竞品分析：复制对手的成功点",
+              "实战案例：带你从 0 选出一个能做的网站方向"
+            ]
+          },
+          {
+            "group": "网站搭建（小白路线 + 工程师路线）",
+            "pages": [
+              "使用网站模板快速生成首页、博客页",
+              "配置域名、SSL、自动部署",
+              "添加基本 SEO 结构（title、meta、schema）"
+            ]
+          },
+          {
+            "group": "SEO 流量（小白可复制）",
+            "pages": [
+              "Google 排名的底层逻辑是什么",
+              "如何写一篇能排名的英文文章（结构模板）",
+              "Search Console：如何让 Google 快速抓取",
+              "哪些内容容易涨流量，哪些内容白写",
+              "如何监控排名趋势，判断是否赚钱"
+            ]
+          },
+          {
+            "group": "变现（广告 + 订阅 + 内容付费）",
+            "pages": [
+              "Google AdSense 如何申请、放码、预估收入",
+              "Google RPM（每千次收入）如何计算",
+              "Stripe：开通账户、收款、订阅设置",
+              "如何做一个简单的英文 SaaS 工具并卖订阅",
+              "你的网站为什么赚不到钱？（避坑指南）",
+              "实战案例：工具站月入 600 美金的拆解"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -63,33 +73,17 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "联系我们",
+        "href": "neonbit@neonbit.team"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
+    ]
   },
   "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
-    ]
+    "options": []
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/hezhiqianye"
     }
   }
 }
