@@ -13,37 +13,36 @@
       {
         "group": "出海赚钱基础认知",
         "icon": "info",
-        "pages": [
-          "1/1-1",
-          "1/1-2",
-          "1/1-3",
-          "1/1-4"
-        ]
+        "pages": ["1/1-1", "1/1-2", "1/1-3", "1/1-4"]
       },
       {
         "group": "必备工具",
         "icon": "tools",
-        "pages": [
-          "3/3-1"
-        ]
+        "pages": ["3/3-1"]
       },
       {
         "group": "确定方向",
         "icon": "search",
-        "pages": [
-          "2/2-1",
-          "2/2-2",
-          "2/2-3",
-          "2/2-4"
-        ]
+        "pages": ["2/2-1", "2/2-2", "2/2-3", "2/2-4"]
       },
       {
-        "group": "网站搭建",
+        "group": "网站搭建（工程师路线 + 小白路线）",
         "icon": "globe",
         "pages": [
-          "3/使用网站模板快速生成首页、博客页",
-          "3/配置域名、SSL、自动部署",
-          "3/添加基本 SEO 结构（title、meta、schema）"
+          "工程师路线",
+          {
+            "group": "Editing",
+            "expanded": false,
+            "icon": "pencil",
+            "pages": ["installation", "editor"]
+          },
+          "小白路线",
+          {
+            "group": "Editing",
+            "expanded": false,
+            "icon": "pencil",
+            "pages": ["installation", "editor"]
+          }
         ]
       },
       {
