@@ -29,19 +29,17 @@
         "group": "网站搭建（工程师路线 + 小白路线）",
         "icon": "globe",
         "pages": [
-          "工程师路线",
           {
-            "group": "Editing",
+            "group": "工程师路线",
             "expanded": false,
-            "icon": "pencil",
-            "pages": ["installation", "editor"]
+            "icon": "code",
+            "pages": ["4/4-1"]
           },
-          "小白路线",
           {
-            "group": "Editing",
+            "group": "小白路线",
             "expanded": false,
-            "icon": "pencil",
-            "pages": ["installation", "editor"]
+            "icon": "globe",
+            "pages": ["5/5-1"]
           }
         ]
       },
